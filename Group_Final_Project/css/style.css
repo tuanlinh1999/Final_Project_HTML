@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #EC0002;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: table;
+    height: 80px;
+}
+
+footer {
+    background-color: #EC0002;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+header img {
+    padding-top: 20px;
+    width: 40%;
+}
+
+.Logo {
+    padding-left: 30px;
+    max-width: 400px;
+    display: table-cell;
+    align-items: center;
+}
+
+.nav-items {
+    padding-right: 30px;
+    display: table-cell;
+    align-items: center;
+    float: right;
+}
+
+.nav-header {
+    display: block;
+}
+
+.nav-header a {
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-right: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-header a:hover {
+    color: #1f1d1d;
+}
+
+.social-btn {
+    padding: 0 400px;
+    padding-bottom: 25px;
+}
+
+.links {
+    padding-top: 20px;
+}
+
+.social-btn-item .fab {
+    font-size: 40px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.link-item .fas {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.social-btn-item a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-btn-item {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.link-item {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.info a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.nav-footer {
+    list-style-type: none;
+    display: block;
+    text-align: left;
+}
+
+.info li {
+    padding: 5px 0;
+}
+
+.links li {
+    padding: 10px 0;
+}
