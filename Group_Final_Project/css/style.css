@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: #EC0002;
+    background-color: #000000;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -13,7 +13,7 @@ nav {
 }
 
 footer {
-    background-color: #EC0002;
+    background-color: #000000;
     bottom: 0;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -23,7 +23,7 @@ footer {
 
 header img {
     padding-top: 20px;
-    width: 40%;
+    width: 50%;
 }
 
 .Logo {
@@ -54,7 +54,7 @@ header img {
 }
 
 .nav-header a:hover {
-    color: #1f1d1d;
+    color: #e25656;
 }
 
 .social-btn {
@@ -145,4 +145,23 @@ header img {
 span {
     color: #EC0002;
     font-weight: bold;
+}
+
+.my-form {
+    color: #EC0002;
+}
+
+.my-form .btn-default {
+    background-color: #EC0002;
+    color: #fff;
+    border-radius: 0;
+}
+
+.my-form .btn-default:hover {
+    background-color: #EC0002;
+    color: #fff;
+}
+
+.my-form .form-control {
+    border-radius: 0;
 }
