@@ -16,7 +16,6 @@ footer {
     background-color: #EC0002;
     bottom: 0;
     width: 100%;
-    position: absolute;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
     text-align: center;
@@ -135,4 +134,15 @@ header img {
 
 .links li {
     padding: 10px 0;
+}
+
+.wrapper {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+span {
+    color: #EC0002;
+    font-weight: bold;
 }
