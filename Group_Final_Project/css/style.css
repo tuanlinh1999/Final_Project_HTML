@@ -7,9 +7,11 @@ body {
     height: 100%;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
+/*
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+*/
 }
 
 header {
@@ -166,7 +168,8 @@ span {
 
 main {
     display: block;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .item-col {
@@ -268,4 +271,163 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+}
+
+
+/*HomePage*/
+#chef
+{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+    height: 312px;
+}
+#welcome
+{
+    background-color: ;
+}
+p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    padding-right: 20px;
+}
+h1
+{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    text-align: left;
+    padding-left: 20px;
+}
+h3
+{
+    font-size: 1em;
+    text-align: end;
+    padding-right: 50px;
+    color: blue;
+}
+a
+{
+    color: blue;
+}
+#home
+{
+    background-image: url(../img/home2.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    clear: left;
+}
+
+#offer
+{
+    padding-left: 50px;
+    padding-right: auto;
+}
+#offer ul
+{
+    display: flex;
+    flex-direction: row;
+}
+#offer li
+{
+    list-style: none;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+input[type="submit"]
+{
+    background-color: #E22C2C;
+    width: 100px;
+    height: 30px;
+}
+input[type="reset"]
+{
+    background-color: #E22C2C;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+/* Pop-up table reservation */
+:root{ /*pseudo-class -> html*/
+            --themecolor:rgb(8, 102, 153);/*css variables start*/ 
+            --duration:0.8s;
+        }
+#close
+{
+    text-shadow: 1px 1px 8px black;
+    color:black;
+    cursor: pointer;
+}
+#form
+{
+    text-align: left;
+    padding-left: 200px;
+}
+form
+{
+    display: grid;
+    grid-auto-columns: 200px auto 200px;
+    background-color: ;
+}
+label
+{
+    color: white;
+    margin-top: 10px;
+    font-size: 1.5em;
+    grid-column: 1/2;
+    text-align: justify;
+    
+}
+input
+{     
+    margin-top: 10px;
+    width: 350px;
+    grid-column: 2/2;
+}
+#overlay
+{
+    background-color: rgba(0,0,0,0.7);
+/*    color: #ede;*/
+    width:0;
+    height:0;
+    overflow: hidden;
+    transition:var(--duration); 
+
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+#overlay.showoverlay
+{
+    width:70%;
+    height:95%;
+    z-index: 1;
+}
+
+.showoverlay + #wrapper
+{
+    filter:blur(5px);
+}
+#overlay h1
+{
+    font-size:min(5vw, 5vh);
+    color: white;
 }

@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HomePage-MonkeySushi</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -23,12 +25,68 @@
                     <a href="about.html">About Us</a>
                     <a href="contact.html">Contact Us</a>
                 </div>
-
             </div>
         </nav>
     </header>
     <main>
-        <div></div>
+        <div id='overlay'>
+                <a class='material-icons' id="close">close</a>
+                <h1>Registration Form</h1>
+                    <div id="form">
+                        <form>
+                            <label for="name">Name:</label> 
+                            <input type="text" name="name" id="name"> 
+                            <label for="myEmail">E-mail:</label> 
+                            <input type="text" name="myEmail" id="myEmail"> 
+                            <label for="numberPerson">Persons:</label> 
+                            <input type="number" name="numberPerson" id="numberPerson" >
+                            <label for="date">Date: </label>
+                            <input type="date" name="date" id="date">
+                            <label for="time">Time: </label>
+                            <input type="time" name="time" id="time">
+                            <label for="occasion">Occasion: </label>
+                            <input type="text" name="occasion" id="occasion">
+                            <label for="mobile">Mobile Number: </label>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>            <small>Format: 123-456-7890</small>
+                            <input id="btn" type="reset" value="Cancel">
+                            <input id="submit" type="submit" value="Submit">
+                        </form>
+                    </div>
+            </div>
+            <div id="home"></div>
+            <h1>Offers</h1>
+            <section id="offer">
+                <ul>
+                    <section id="offer1">
+                        <!--https://www.google.com/search?q=30%25+images&tbm=isch&ved=2ahUKEwio0aKar-nvAhUPTCsKHfENCzAQ2-cCegQIABAA&oq=30%25+images&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeOgYIABAHEB5Q0jhYqTxghV5oAHAAeACAAXaIAegBkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=WTJsYOjAKI-YrQHxm6yAAw&bih=626&biw=1366&client=firefox-b-d#imgrc=vPhDrV-Vv84eDM-->
+                        <li><img src="img/30%25.jpg" alt="30%.jpg"></li>
+                        <li>30% Cashback by using mastercard</li>
+                    </section>
+                    <section id="offer2">
+                        <!--https://www.google.com/search?q=50%25+images&client=firefox-b-d&sxsrf=ALeKk0053sXkIhGp2BBglVf4gAoiIAHLgw:1617703508702&tbm=isch&source=iu&ictx=1&fir=Vz5aBEUCcXU4TM%252CfbkY36a71VYXiM%252C_&vet=1&usg=AI4_-kRRpl8tBDqYBG2NbPJSbYo-P766Mg&sa=X&ved=2ahUKEwifs_OXr-nvAhWLwzgGHYxIC48Q9QF6BAgMEAE&biw=1366&bih=626-->
+                        <li><img src="img/50%25.jpg" alt="50%.jpg"></li>
+                        <li>50% off on order above 50CAD</li>
+                    </section>
+                    <section id="offer3">
+                        <!--https://www.google.com/search?q=free+offer+images&tbm=isch&ved=2ahUKEwio0aKar-nvAhUPTCsKHfENCzAQ2-cCegQIABAA&oq=free+offer+images&gs_lcp=CgNpbWcQAzICCAAyBggAEAgQHjoGCAAQBxAeOgUIABCxAzoICAAQBxAFEB46CAgAEAgQBxAeUL3JA1j83wNglOEDaABwAHgAgAHZAYgBkwuSAQYwLjEwLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=WTJsYOjAKI-YrQHxm6yAAw&bih=626&biw=1366&client=firefox-b-d#imgrc=Kad9pTjhO8tWKM-->
+                        <li><img src="img/free.jpg" alt="free.jpg"></li>
+                        <li>free One Bento Box on order above 100CAD</li>
+                    </section>
+                </ul>
+            </section>
+            
+                <h3><a href="https://www.skipthedishes.com/?search=monkey+sushi">More Details >></a></h3>
+                <h2>Monkey Sushi</h2>
+            <section id="welcome">
+                <!--https://unsplash.com/photos/DdglEoIC2y4-->
+                <img id="chef" src="img/welcome.jpg" alt="staff member">
+                <p>
+                    Welcome to Monkey Sushi! We currently have five locations, 493 Bloor St West, 461 Danforth Ave, 64 Edward Street, 901 Yonge St, and 182 Ossington Ave. Bloor location offers all you can eat sushi, sashimi, tempura, seafood, grilled chicken, steak, and fish, amongst other dishes. Whether dine-in or take-out, our staff are committed to ensuring you have a memorable experience with us.
+
+                    With over 25 years of combined experience in making the finest Japanese cuisine, our chefs are excited to give you a Monkey Sushi experience. We refuse to compromise on the quality of our food, which is why we support our local farmers by sourcing our food from them. So, come on down and dine with us, we can assure you’ll go bananas for our sushi!
+                </p>
+                <input type="submit" value="Book a Table" id="registration" height="50px">
+            </section>
     </main>
     <footer>
 
