@@ -360,7 +360,6 @@ input[type="reset"]
 
 
 
-/* Pop-up table reservation */
 :root{ /*pseudo-class -> html*/
             --themecolor:rgb(8, 102, 153);/*css variables start*/ 
             --duration:0.8s;
