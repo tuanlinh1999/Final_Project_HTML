@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage-MonkeySushi</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="script/script.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-
-<body>
-    <header class="navigation">
-        <nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/home.css">
+        <script src="script/script.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <header class="navigation">
             <div class="Logo">
                 <img src="img/logo.jpg">
             </div>
-            <div class="nav-items">
-                <div class="nav-header">
-                    <a href="index.html">Home</a>
-                    <a href="menu.html">Menu</a>
-                    <a href="about.html">About Us</a>
-                    <a href="contact.html">Contact Us</a>
+            <nav>
+                <div class="nav-items">
+                    <div class="nav-header">
+                        <a href="index.html">Home</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="about.html">About Us</a>
+                        <a href="locations.html">Locations</a>
+                    </div> 
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div id='overlay'>
+                <a class='material-icons' id="toggle"></a>
+            </nav>
+        </header>
+        <main>
+            <div id='overlay'>
                 <a class='material-icons' id="close">close</a>
                 <h1>Registration Form</h1>
                     <div id="form">
@@ -47,12 +47,14 @@
                             <label for="occasion">Occasion: </label>
                             <input type="text" name="occasion" id="occasion">
                             <label for="mobile">Mobile Number: </label>
-                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>            <small>Format: 123-456-7890</small>
-                            <input id="btn" type="reset" value="Cancel">
-                            <input id="submit" type="submit" value="Submit">
+                            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="format: 555-555-5555">
+                            <div id="button">
+                                <input id="btn" type="reset" value="Reset">
+                                <input id="submit" type="submit" value="Submit">
+                            </div>
                         </form>
                     </div>
-            </div>
+            </div>     
             <div id="home"></div>
             <h1>Offers</h1>
             <section id="offer">
@@ -87,71 +89,52 @@
                 </p>
                 <input type="submit" value="Book a Table" id="registration" height="50px">
             </section>
-    </main>
-    <footer>
-
-        <div class="info">
-
-
-
-            <ul class="nav-footer">
-                <li><a> &copy; Monkey Sushi </a></li>
-                <li>
-                    <a href="tel:888-555-5555"> <span> 493 Bloor St.W:</span> 416-966-1000</a>
-                </li>
-                <li> <a href="tel:888-555-5555"><span>461 Danforth Ave: </span> 416-406-0288</a></li>
-                <li>
-                    <a href="tel:888-555-5555"> <span> 901 Yonge St:</span> 437-999-8883</a>
-                </li>
-                <li>
-                    <a href="tel:888-555-5555"> <span> 64 Edward Street:</span>416-551-1355</a>
-                </li>
-                <li>
-                    <a href="tel:888-555-5555"> <span>182 Ossington Ave:</span> 437-999-8878</a>
-                </li>
-            </ul>
-
-        </div>
-        <div class="social-btn">
-            <div class="social-btn-item">
-                <a class="fab fa-facebook"></a>
-                <a href="">@Monkeysushi</a>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="info">
+                    <ul class="nav-footer">
+                        <li><a> &copy; Monkey Sushi </a></li>
+                        <li> <a href="tel:888-555-5555">493 Bloor St.W: 416-966-1000</a></li>
+                        <li> <a href="tel:888-555-5555">461 Danforth Ave: 416-406-0288</a></li>
+                        <li> <a href="tel:888-555-5555">901 Yonge St: 437-999-8883</a> </li>
+                        <li> <a href="tel:888-555-5555">901 Yonge St: 437-999-8883</a></li>
+                        <li> <a href="tel:888-555-5555">182 Ossington Ave: 437-999-8878</a></li>
+                    </ul>
+                </div>
+                <div class="social-btn">
+                    <div class="social-btn-item">
+                        <a class="fab fa-facebook"></a>
+                        <a href="">@Monkeysushi</a>
+                    </div>
+                    <div class="social-btn-item">
+                        <a class="fab fa-instagram"></a>
+                        <a href="">@Monkeysushi</a>
+                    </div>
+                    <div class="social-btn-item">
+                        <a class="fab fa-twitter"> </a>
+                        <a href="">@Monkeysushi</a>
+                    </div>
+                </div>
+                <div class="links">
+                    <div class="link-item">
+                        <a class="fas fa-home"></a>
+                        <a href="index.html">  Home</a>
+                    </div>
+                    <div class="link-item">
+                        <a class="fas fa-clipboard-list"></a>
+                        <a href="menu.html">  Menu</a>
+                    </div>
+                    <div class="link-item">
+                        <a class="fas fa-info-circle"></a>
+                        <a href="about.html">  About Us</a>
+                    </div>
+                    <div class="link-item">
+                        <a class="fas fa-map-marker-alt"></a>
+                        <a href="locations.html">  Locations</a>
+                    </div>
+                </div>
             </div>
-            <div class="social-btn-item">
-                <a class="fab fa-instagram"></a>
-                <a href="">@Monkeysushi</a>
-            </div>
-            <div class="social-btn-item">
-                <a class="fab fa-twitter"> </a>
-                <a href="">@Monkeysushi</a>
-            </div>
-
-
-        </div>
-        <div class="links">
-
-            <div class="link-item">
-                <a class="fas fa-home"></a>
-                <a href="index.html">  Home</a>
-            </div>
-            <div class="link-item">
-                <a class="fas fa-clipboard-list"></a>
-                <a href="menu.html">  Menu</a>
-            </div>
-            <div class="link-item">
-                <a class="fas fa-info-circle"></a>
-                <a href="about.html">  About Us</a>
-            </div>
-            <div class="link-item">
-                <a class="fas fa-map-marker-alt"></a>
-                <a href="contact.html">Contact Us</a>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-</body>
-
+        </footer>
+    </body>
 </html>
