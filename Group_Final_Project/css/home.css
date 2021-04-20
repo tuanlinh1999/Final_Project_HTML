@@ -59,6 +59,7 @@ input[type="reset"]
     width: 100px;
     height: 30px;
 }
+
 /* Pop-up table reservation */
 :root
 { 
@@ -79,14 +80,14 @@ input[type="reset"]
 #close
 {
     text-shadow: 1px 1px 8px black;
-    color:white;
+    color: white;
     cursor: pointer;
     float: right;
 }
 #form
 {
     text-align: left;
-    padding-left: 200px;
+    padding-left: 25px;
 }
 form
 {
@@ -101,7 +102,6 @@ label
     font-size: 1.5em;
     grid-column: 1/2;
     text-align: justify;
-    
 }
 input
 {     
@@ -112,7 +112,6 @@ input
 #overlay
 {
     background-color: rgba(0,0,0,0.7);
-/*    color: #ede;*/
     width:0;
     height:0;
     overflow: hidden;
@@ -129,8 +128,8 @@ input
 }
 #overlay.showoverlay
 {
-    width:70%;
-    height:95%;
+    width:45%;
+    height:65%;
     z-index: 1;
 }
 
@@ -142,4 +141,5 @@ input
 {
     font-size:min(5vw, 5vh);
     color: white;
+    text-align: center;
 }
