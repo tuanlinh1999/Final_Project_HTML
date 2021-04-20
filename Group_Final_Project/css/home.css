@@ -76,16 +76,6 @@ input[type="reset"]
 {
     margin-left: 5px;
 }
-/*
-.btn input[type="submit"]
-{
-    grid-column: 1/2;
-}
-.btn input[type="reset"]
-{
-    grid-column: 2/2;
-}
-*/
 #close
 {
     text-shadow: 1px 1px 8px black;
