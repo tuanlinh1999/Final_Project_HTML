@@ -12,12 +12,10 @@ h6
 
 main
 {
-/*
-    background-image: url(../img/sushi-2856547_1920.jpg);
+    background-image: url(../img/mainimg2.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-*/
-    background-color: #cec8cb;
+    padding-bottom: 200px;
 }
 
 #asiancucumber
@@ -25,6 +23,17 @@ main
     background-image: url(../img/asianCucumber.jpg);
     height: 500px;
     width: 500px;
+}
+#dishes
+{
+    background-color: #cec8cb;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 50px,50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 70%;
 }
 #dish1
 {
@@ -91,7 +100,8 @@ p
 
 #offer
 {
-    padding-left: 50px;
+    padding-top: 5px;
+    padding-left: 120px;
     padding-right: auto;
     background-color: #cec8cb;
 }
