@@ -18,12 +18,6 @@ main
     padding-bottom: 200px;
 }
 
-#asiancucumber
-{
-    background-image: url(../img/asianCucumber.jpg);
-    height: 500px;
-    width: 500px;
-}
 #dishes
 {
     background-color: #cec8cb;
@@ -39,7 +33,7 @@ main
 {
     display: block;
     background-color: #cec8cb;
-    padding-bottom: 95px;
+    padding-bottom: 140px;
 /*    padding-top: 50px;*/
 }
 #dish1 img
@@ -54,7 +48,8 @@ main
 {
     display: block;
     background-color: #d19946;
-    padding-bottom: 95px;
+    padding-top: 30px;
+    padding-bottom: 120px;
     padding-left: 20px;
     padding-right: 10px;
 /*    padding-top: 50px;*/
@@ -71,7 +66,10 @@ main
 {
     display: block;
     background-color: #cec8cb;
-    padding-bottom: 95px;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 #dish3 img
 {
