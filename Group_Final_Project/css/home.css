@@ -9,17 +9,68 @@ h6
     padding-right: 80px;
     color: blue;
 }
-#chef
+
+main
+{
+/*
+    background-image: url(../img/sushi-2856547_1920.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+*/
+    background-color: #cec8cb;
+}
+
+#asiancucumber
+{
+    background-image: url(../img/asianCucumber.jpg);
+    height: 500px;
+    width: 500px;
+}
+#dish1
+{
+    display: block;
+    background-color: #cec8cb;
+    padding-bottom: 95px;
+/*    padding-top: 50px;*/
+}
+#dish1 img
 {
     float: left;
     margin-left: 20px;
     margin-right: 10px;
     border: 3px solid black;
-    height: 312px;
+    height: 212px;
 }
-#welcome
+#dish2
 {
-    background-color: ;
+    display: block;
+    background-color: #d19946;
+    padding-bottom: 95px;
+    padding-left: 20px;
+    padding-right: 10px;
+/*    padding-top: 50px;*/
+}
+#dish2 img
+{
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+    height: 212px;
+}
+#dish3
+{
+    display: block;
+    background-color: #cec8cb;
+    padding-bottom: 95px;
+}
+#dish3 img
+{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+    height: 212px;
 }
 p
 {
@@ -27,13 +78,14 @@ p
     font-size: 1.5em;
     text-align: justify;
     padding-right: 20px;
+    padding-top: 10px;
 }
 #home
 {
-    background-image: url(../img/home2.jpg);
+    background-image: url(../img/Nav%20img2.jpg);
     background-repeat: repeat;
     background-size: 100% 100%;
-    height: 700px;
+    height: 655px;
     clear: left;
 }
 
@@ -41,6 +93,7 @@ p
 {
     padding-left: 50px;
     padding-right: auto;
+    background-color: #cec8cb;
 }
 #offer ul
 {
@@ -54,17 +107,33 @@ p
     font-size: 1.5em;
     text-align: center;
 }
-input[type="submit"]
+#booking
 {
-    background-color: #E22C2C;
-    width: 100px;
-    height: 30px;
+    padding-top: 365px;
+    padding-left: 598px;
+    padding-right: auto;
+    padding-bottom: auto;
 }
-input[type="reset"]
+#booking input[type="submit"]
 {
-    background-color: #E22C2C;
-    width: 100px;
-    height: 30px;
+    background-color: #cec8cb;
+    width: 150px;
+    height: 40px;   
+    border-radius: 5px;
+}
+#button input[type="submit"]
+{
+    background-color: #cec8cb;
+    width: 150px;
+    height: 40px;   
+    border-radius: 5px;
+}
+#button input[type="reset"]
+{
+    background-color: #cec8cb;
+    width: 150px;
+    height: 40px;   
+    border-radius: 5px;
 }
 
 /* Pop-up table reservation */
@@ -94,7 +163,8 @@ input[type="reset"]
 #form
 {
     text-align: left;
-    padding-left: 25px;
+    padding-left: 45px;
+/*    padding: 25px;*/
 }
 form
 {
@@ -113,7 +183,7 @@ label
 input
 {     
     margin-top: 10px;
-    width: 350px;
+    width: 300px;
     grid-column: 2/2;
 }
 #overlay
@@ -136,7 +206,7 @@ input
 #overlay.showoverlay
 {
     width:45%;
-    height:65%;
+    height:75%;
     z-index: 1;
 }
 

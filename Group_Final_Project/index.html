@@ -12,22 +12,28 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <header class="navigation">
-            <div class="Logo">
-                <img src="img/logo.jpg">
+        
+        <div id="home">
+                <header class="navigation">
+                    <div class="Logo">
+                        <img src="img/logo.jpg">
+                    </div>
+                    <nav>
+                        <div class="nav-items">
+                            <div class="nav-header">
+                                <a href="index.html">Home</a>
+                                <a href="menu.html">Menu</a>
+                                <a href="about.html">About Us</a>
+                                <a href="locations.html">Locations</a>
+                            </div> 
+                        </div>
+                        <a class='material-icons' id="toggle"></a>
+                    </nav>
+                </header>
+            <div id="booking">
+                <input type="submit" value="Book now" id="registration" height="50px">
             </div>
-            <nav>
-                <div class="nav-items">
-                    <div class="nav-header">
-                        <a href="index.html">Home</a>
-                        <a href="menu.html">Menu</a>
-                        <a href="about.html">About Us</a>
-                        <a href="locations.html">Locations</a>
-                    </div> 
-                </div>
-                <a class='material-icons' id="toggle"></a>
-            </nav>
-        </header>
+        </div>
         <main>
             <div id='overlay'>
                 <a class='material-icons' id="close">close</a>
@@ -55,17 +61,17 @@
                         </form>
                     </div>
             </div>     
-            <div id="home"></div>
+            
             <h1>Offers</h1>
             <section id="offer">
                 <ul>
                     <section id="offer1">
-                        <!--https://www.google.com/search?q=30%25+images&tbm=isch&ved=2ahUKEwio0aKar-nvAhUPTCsKHfENCzAQ2-cCegQIABAA&oq=30%25+images&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzICCAAyAggAMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQBRAeOgYIABAHEB5Q0jhYqTxghV5oAHAAeACAAXaIAegBkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=WTJsYOjAKI-YrQHxm6yAAw&bih=626&biw=1366&client=firefox-b-d#imgrc=vPhDrV-Vv84eDM-->
+                        <!--https://www.google.com/search?q=30%25+images&tbm=isch&chips=q:30+images,online_chips:discount:t-uyqU-9SnY%3D&client=firefox-b-d&hl=en&sa=X&ved=2ahUKEwik-PGV4ozwAhVKYisKHe3LCIYQ4lYoBHoECAEQIA&biw=1349&bih=626#imgrc=s0zH-izLwnqbBM-->
                         <li><img src="img/30%25.jpg" alt="30%.jpg" height="200px"></li>
                         <li>30% Cashback by using mastercard</li>
                     </section>
                     <section id="offer2">
-                        <!--https://www.google.com/search?q=50%25+images&client=firefox-b-d&sxsrf=ALeKk0053sXkIhGp2BBglVf4gAoiIAHLgw:1617703508702&tbm=isch&source=iu&ictx=1&fir=Vz5aBEUCcXU4TM%252CfbkY36a71VYXiM%252C_&vet=1&usg=AI4_-kRRpl8tBDqYBG2NbPJSbYo-P766Mg&sa=X&ved=2ahUKEwifs_OXr-nvAhWLwzgGHYxIC48Q9QF6BAgMEAE&biw=1366&bih=626-->
+                        <!--https://www.google.com/search?q=50%25+images&tbm=isch&hl=en&chips=q:50%25+images,online_chips:sale:Nu5_Eytextw%3D&client=firefox-b-d&sa=X&ved=2ahUKEwiGjq_M4ozwAhVLi0sFHZ8iC2kQ4lYoBHoECAEQHg&biw=1349&bih=626#imgrc=RW34GFxPz2AvWM-->
                         <li><img src="img/50%25.png" alt="50%.png" height="200px"></li>
                         <li>50% off on order above 50CAD</li>
                     </section>
@@ -75,19 +81,32 @@
                         <li>free One Bento Box on order above 100CAD</li>
                     </section>
                 </ul>
-            </section>
-            
                 <h6><a href="https://www.skipthedishes.com/?search=monkey+sushi">More Details >></a></h6>
-                <h2>Monkey Sushi</h2>
-            <section id="welcome">
-                <!--https://unsplash.com/photos/DdglEoIC2y4-->
-                <img id="chef" src="img/welcome.jpg" alt="staff member">
+            </section>
+            <h1>Today's Special</h1>
+            <section id="dish1">
+<!--                https://pixabay.com/photos/asian-cucumber-dish-fish-food-1239271/-->
+                <img src="img/asianCucumber.jpg" alt="asianCucumber.jpg" height="200px">
                 <p>
-                    Welcome to Monkey Sushi! We currently have five locations, 493 Bloor St West, 461 Danforth Ave, 64 Edward Street, 901 Yonge St, and 182 Ossington Ave. Bloor location offers all you can eat sushi, sashimi, tempura, seafood, grilled chicken, steak, and fish, amongst other dishes. Whether dine-in or take-out, our staff are committed to ensuring you have a memorable experience with us.
-
-                    With over 25 years of combined experience in making the finest Japanese cuisine, our chefs are excited to give you a Monkey Sushi experience. We refuse to compromise on the quality of our food, which is why we support our local farmers by sourcing our food from them. So, come on down and dine with us, we can assure you’ll go bananas for our sushi!
+                    The most important ingredient for making this cucumber sushi recipe is the cucumber. Go for the large and wide cucumbers for best results. All other ingredients are negotiable.
                 </p>
-                <input type="submit" value="Book a Table" id="registration" height="50px">
+                <h3>Ingredients: Sushi rice along with smoked salmon, avocados, red peppers and carrots.</h3>
+            </section>
+            <section id="dish2">
+<!--                https://pixabay.com/photos/asian-cucumber-dish-fish-food-1239271/-->
+                <img src="img/asianCucumber.jpg" alt="asianCucumber.jpg" height="200px">
+                <p>
+                    The most important ingredient for making this cucumber sushi recipe is the cucumber. Go for the large and wide cucumbers for best results. All other ingredients are negotiable.
+                </p>
+                <h3>Ingredients: Sushi rice along with smoked salmon, avocados, red peppers and carrots.</h3>
+            </section>
+            <section id="dish3">
+<!--                https://pixabay.com/photos/asian-cucumber-dish-fish-food-1239271/-->
+                <img src="img/asianCucumber.jpg" alt="asianCucumber.jpg" height="200px">
+                <p>
+                    The most important ingredient for making this cucumber sushi recipe is the cucumber. Go for the large and wide cucumbers for best results. All other ingredients are negotiable.
+                </p>
+                <h3>Ingredients: Sushi rice along with smoked salmon, avocados, red peppers and carrots.</h3>
             </section>
         </main>
         <footer>
